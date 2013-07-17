@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="robocodecontest" uuid="5ce13707-a16e-4bfb-800d-6ed00c954477" doNotGenerateAdapters="true">
+<language namespace="robocodecontest" uuid="5ce13707-a16e-4bfb-800d-6ed00c954477">
   <models>
-    <modelRoot path="${language_descriptor}/languageModels" />
+    <modelRoot contentPath="${module}/languageModels" type="default">
+      <sourceRoot location="." />
+    </modelRoot>
   </models>
   <accessoryModels />
   <generators />
