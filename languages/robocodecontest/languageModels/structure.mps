@@ -41,5 +41,44 @@
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3884485523156072865" resolveInfo="IAction" />
     </node>
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="250998898725238167" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="TurnGunRightAction" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="turn gun right" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="turn gun right" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="250998898725238231" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="degrees" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="250998898725238227" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3884485523156072865" resolveInfo="IAction" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="250998898725367694" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="BackAction" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="move back" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="move back" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="250998898725367695" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="pixels" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="250998898725367696" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3884485523156072865" resolveInfo="IAction" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="250998898725429340" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="FireAction" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="fire" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="fire" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="250998898725429394" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="power" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="250998898725429392" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3884485523156072865" resolveInfo="IAction" />
+    </node>
+  </root>
 </model>
 
